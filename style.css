@@ -1,0 +1,73 @@
+/* CSS files add styling rules to your content */
+
+body {
+    margin: 0cm;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+    font-size: 110px;
+}
+
+.cover{
+    height: 300px;
+    color: antiquewhite;
+    background-image: url(https://scontent.fbjx3-1.fna.fbcdn.net/v/t39.30808-6/321349693_631692792292190_1700273353081280117_n.jpg?_nc_cat=108&cb=99be929b-3346023f&ccb=1-7&_nc_sid=0debeb&_nc_ohc=PxAf8n0kEXYAX-D5jpP&_nc_ht=scontent.fbjx3-1.fna&oh=00_AfCArOKlwoSu4JxiXGnfAro3DEj0XlYmB6jC0_6yCH-7EQ&oe=6486FD90);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}  
+
+.cover-small {
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px  rgba(0, 0, 0, 0.6); 
+}
+
+.card-title {
+    min-height: 3rem;
+}
+
+.card-text {
+    min-height: 8rem;
+}
+
+.product-stripe {
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.stripe-container {
+    display: flex;
+
+}
+
+.stripe-container .card {
+    width: 400px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+
+.rounded-circle {
+    width: 100px;
+    margin: 5px;
+}
+
+a {
+    color: lightgoldenrodyellow;
+}
+
+.card-present {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px  rgba(0, 0, 0, 0.6);
+}
